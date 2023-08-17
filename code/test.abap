@@ -80,6 +80,9 @@ CLASS lcl_local IMPLEMENTATION.
         EXIT.
       ENDIF.
 
+    " Neste ponto, colocar uma rotina de processamento de busca do
+    " lote de 1000 que foi recuperado acima
+
     ENDDO.
 
     CLOSE CURSOR s_cursor.
