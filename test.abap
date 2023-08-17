@@ -1,5 +1,9 @@
-
-REPORT ytest .
+*&---------------------------------------------------------------------*
+*& Report /yga/test
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT /yga/test.
 
 
 CLASS lcl_local DEFINITION CREATE PUBLIC.
@@ -64,34 +68,12 @@ CLASS lcl_local IMPLEMENTATION.
 
     OPEN CURSOR WITH HOLD @s_cursor FOR
 
-* Selecionar PLR não apresenta ativos valorizados
-*          SELECT *
-*            FROM  /yga/tpedligrede
-*                 WHERE numero_plr IN r_plr05 "Número de PLR
-*                  AND linha_mt_val_real         = ''
-*                  AND descontos                 = ''
-*                  AND comparticipacao_cliente   = ''
-*                  AND comparticipacao_client_mt = ''
-*                  AND uso_exclusivo             = ''
-*                  AND uso_partilhado            = ''
-*                  AND uso_part_mt_c_ga          = ''
-*                  AND cinquenta_valor_ptd       = ''
-*                  AND projeto_de_linha_mt       = ''
-*                  AND painel_mt_valor_real      = ''
-*                  AND mont_tot_corr_col         = ''
-*                  AND mont_tot_corr_lum         = ''
-*                  AND reno_tot_corr_col         = ''
-*                  AND reno_tot_corr_lum         = ''
-*                  AND compart_cm_rdip           = ''.
-
     SELECT bukrs, belnr, gjahr, buzei
       FROM bseg
      WHERE gjahr GE @me->gv_gjahr .
 
-
     DO.
 
-*     FETCH NEXT CURSOR s_cursor APPENDING TABLE lt_tpedligrede PACKAGE SIZE 1000.
       FETCH NEXT CURSOR s_cursor APPENDING TABLE me->gt_data PACKAGE SIZE 1000.
 
       IF sy-subrc IS NOT INITIAL.
