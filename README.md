@@ -24,5 +24,5 @@
     CLOSE CURSOR s_cursor.
  ```
 
- ~hoje mesmo me chamaram de cabeça dura~ Mas eu aprendi a questionar, pois a tecnilogia é uma ciência exata e eu posso provar ou não o que esta certo atravez de provas, testes, conceitos matematicos e metricas de processamento. Como é bom ser NERD.
+ ~hoje mesmo me chamaram de cabeça dura~ Mas eu aprendi a questionar, pois a tecnologia é uma ciência exata e eu posso provar ou não o que esta certo atravez de provas, testes, conceitos matematicos e metricas de processamento. Como é bom ser NERD.
 
