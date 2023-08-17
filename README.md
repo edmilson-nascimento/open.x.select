@@ -5,7 +5,7 @@
  Dessa forma é mais rapido do que o select direto e evita `dump` por causa da grande quantidade de dados que temos.
 
  ```abap
-     OPEN CURSOR WITH HOLD @s_cursor FOR
+    OPEN CURSOR WITH HOLD @s_cursor FOR
 
     SELECT bukrs, belnr, gjahr, buzei
       FROM <table>
