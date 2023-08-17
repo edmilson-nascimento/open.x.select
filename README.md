@@ -1,5 +1,5 @@
 # Open cursor VS Select
- ~com toda certeza minha criativade se foi de vez, porque fiquei muito tempo para colocar um titulo e no final é isso que eu tenho~
+ ~com toda certeza minha criativade se foi de vez, porque eu gastei um bom tempo colocar um titulo e no final... é isso~
 
  Houve um comentario que gerou esse programa e o comentario foi
  Dessa forma é mais rapido do que o select direto e evita `dump` por causa da grande quantidade de dados que temos.
