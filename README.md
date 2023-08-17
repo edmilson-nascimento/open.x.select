@@ -24,5 +24,19 @@
     CLOSE CURSOR s_cursor.
  ```
 
- ~hoje mesmo me chamaram de cabeça dura~ Mas eu aprendi a questionar, pois a tecnologia é uma ciência exata e eu posso provar ou não o que esta certo atravez de provas, testes, conceitos matematicos e metricas de processamento. Como é bom ser NERD.
+ ~hoje mesmo me chamaram de cabeça dura~ Mas eu aprendi a questionar, pois a tecnologia é uma ciência exata e eu posso provar ou não o que esta certo atravez de provas, testes, conceitos matematicos e metricas de processamento. Como é bom ser NERD!
+
+ ## O que fazer?
+ Simples, eu vou fazer uma POC (Proof of concept). Vou fazer um programa que executa das duas formas e usar a SAT (ABAP Trace) para medir isso.
+
+ ## O que aconteceu?
+ Ja tenho o resultado, avaliando dois pontos, e depois que o **Murilo Borges** testar, eu vou atualizar esse documento.
+
+### Performance
+-
+### Prevenção de dump
+-
+
+## Conclusão
+~preciso de ferias~
 
