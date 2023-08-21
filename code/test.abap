@@ -72,9 +72,10 @@ CLASS lcl_local IMPLEMENTATION.
       FROM bseg
      WHERE gjahr GE @me->gv_gjahr .
 
-    DO.
+    DO .
 
-      FETCH NEXT CURSOR s_cursor APPENDING TABLE me->gt_data PACKAGE SIZE 1000.
+      FETCH NEXT CURSOR s_cursor 
+      APPENDING TABLE me->gt_data PACKAGE SIZE 1000.
 
       IF sy-subrc IS NOT INITIAL.
         EXIT.
@@ -83,7 +84,7 @@ CLASS lcl_local IMPLEMENTATION.
     " Neste ponto, colocar uma rotina de processamento de busca do
     " lote de 1000 que foi recuperado acima
 
-    ENDDO.
+    ENDDO .
 
     CLOSE CURSOR s_cursor.
 
