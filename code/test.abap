@@ -30,7 +30,7 @@ CLASS lcl_local DEFINITION CREATE PUBLIC.
         buzei TYPE bseg-buzei,
       END OF ty_data,
       tab_data TYPE STANDARD TABLE OF ty_data
-              WITH DEFAULT KEY .
+               WITH DEFAULT KEY .
     DATA:
       gv_gjahr TYPE bseg-gjahr,
       gt_data  TYPE tab_data.
