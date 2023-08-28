@@ -49,6 +49,7 @@ CLASS lcl_local IMPLEMENTATION.
 
   ENDMETHOD .
 
+
   METHOD get_by_select .
 
     CLEAR me->gt_data .
@@ -59,6 +60,7 @@ CLASS lcl_local IMPLEMENTATION.
       INTO TABLE @me->gt_data .
 
   ENDMETHOD .
+
 
   METHOD get_by_open .
 
@@ -111,7 +113,9 @@ CLASS lcl_local IMPLEMENTATION.
 
   ENDMETHOD .
 
+
 ENDCLASS.
+
 
 PARAMETERS:
   p_begin  TYPE gjahr OBLIGATORY DEFAULT '2018',
