@@ -31,7 +31,6 @@ CLASS lcl_local DEFINITION CREATE PUBLIC.
       END OF ty_data,
       tab_data TYPE STANDARD TABLE OF ty_data
               WITH DEFAULT KEY .
-
     DATA:
       gv_gjahr TYPE bseg-gjahr,
       gt_data  TYPE tab_data.
@@ -121,6 +120,7 @@ PARAMETERS:
   p_begin  TYPE gjahr OBLIGATORY DEFAULT '2018',
   p_select TYPE check RADIOBUTTON GROUP r1 DEFAULT 'X',
   p_open   TYPE check RADIOBUTTON GROUP r1.
+
 
 START-OF-SELECTION .
 
