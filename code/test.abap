@@ -38,8 +38,8 @@ CLASS lcl_local DEFINITION CREATE PUBLIC.
 
 ENDCLASS.
 
-CLASS lcl_local IMPLEMENTATION.
 
+CLASS lcl_local IMPLEMENTATION.
 
   METHOD constructor .
 
