@@ -33,16 +33,15 @@ Tratar dados para persistir apos salvar Ordem de Vendas.
 ~hoje mesmo me chamaram de cabeça dura~ Mas eu aprendi a questionar, pois a tecnologia é uma ciência exata e eu posso provar ou não o que esta certo atravez de provas, testes, conceitos matematicos e metricas de processamento. Como é bom ser NERD!
 
  ## O que fazer?
-Simples, eu vou fazer uma POC (Proof of concept). Vou fazer um programa que executa das duas formas e usar a SAT (ABAP Trace) para medir isso. O arquivo esta disponivel [aqui](code/test.abap).
+Simples, eu vou fazer uma POC (Proof of concept). Vou fazer um programa que executa das duas formas e usar a SAT (ABAP Trace) para medir isso. O arquivo esta disponivel [aqui](code/z_test.abap).
 
 ## O que aconteceu?
 Ja tenho o resultado, avaliando dois pontos, e depois que o **Murilo Borges** testar, eu vou atualizar esse documento.
 
 ### Performance
--
+Para performance, o `select` foi bem melhor.
 ### Prevenção de dump
--
-.
+Esse ponto, o `open cursor` funcionou melhor.
 
 ## Conclusão
 ~preciso de ferias~
