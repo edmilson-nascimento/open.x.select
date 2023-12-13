@@ -136,7 +136,6 @@ START-OF-SELECTION .
   ENDCASE .
 
 
-
 END-OF-SELECTION .
 
   object->display_data( ).
