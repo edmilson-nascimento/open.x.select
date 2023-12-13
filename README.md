@@ -1,6 +1,12 @@
 # Open cursor VS Select
  ~com toda certeza minha criativade se foi de vez, porque eu gastei um bom tempo colocar um titulo e no final... é isso~
 
+Tratar dados para persistir apos salvar Ordem de Vendas.
+
+![Static Badge](https://img.shields.io/badge/development-abap-blue)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/edmilson-nascimento/open.x.select)
+
+
  Houve um comentario que gerou esse programa e o comentario foi
  Dessa forma é mais rapido do que o select direto e evita `dump` por causa da grande quantidade de dados que temos.
 
