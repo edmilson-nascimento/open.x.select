@@ -43,6 +43,9 @@ Para performance, o `select` foi bem melhor.
 ### Prevenção de dump
 Esse ponto, o `open cursor` funcionou melhor.
 
+## Importante
+Houve um erro ou uma falha de dados, ou seja, eu tenho alguns pontos de atencao, por exemplo, não devo usar `for all entries` para essas opções. O *Eduardo Araujo* disse que não é interessante essa utulização ~e quando ele tiver tempo e pesquisar, vai atualizar esse esse artigo~.
+
 ## Conclusão
 ~preciso de ferias~
 
