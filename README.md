@@ -9,7 +9,6 @@ Tratar dados para persistir apos salvar Ordem de Vendas.
 ![Static Badge](https://img.shields.io/badge/eduardo.araujo-abap-teal)
 
 
-
  Houve um comentario que gerou esse programa e o comentario foi
  Dessa forma é mais rapido do que o select direto e evita `dump` por causa da grande quantidade de dados que temos.
 
