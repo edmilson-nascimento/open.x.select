@@ -3,8 +3,11 @@
 
 Tratar dados para persistir apos salvar Ordem de Vendas.
 
-![Static Badge](https://img.shields.io/badge/development-abap-blue)
+![Static Badge](https://img.shields.io/badge/development-abap-blue) 
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/edmilson-nascimento/open.x.select)
+![Static Badge](https://img.shields.io/badge/murilo.borges-abap-lime)
+![Static Badge](https://img.shields.io/badge/eduardo.araujo-abap-teal)
+
 
 
  Houve um comentario que gerou esse programa e o comentario foi
@@ -41,11 +44,11 @@ Ja tenho o resultado, avaliando dois pontos, e depois que o **Murilo Borges** te
 ### Performance
 Para performance, o `select` foi bem melhor.
 ### Prevenção de dump
-Esse ponto, o `open cursor` funcionou melhor.
+Esse ponto, o `open cursor` funcionou melhor sem gerar dumps. Agora com a recente atualização, ~por algum motivo que ainda não sei porque~, mas funciona melhor com `range` .
 
 ## Importante
-Houve um erro ou uma falha de dados, ou seja, eu tenho alguns pontos de atencao, por exemplo, não devo usar `for all entries` para essas opções. O *Eduardo Araujo* disse que não é interessante essa utulização ~e quando ele tiver tempo e pesquisar, vai atualizar esse esse artigo~.
+Houve um erro ou uma falha de dados, ou seja, eu tenho alguns pontos de atencao, por exemplo, não devo usar `for all entries` para essas opções. O *Eduardo Araujo* disse que não é interessante essa utulização ~~e quando ele tiver tempo e pesquisar, vai atualizar esse esse artigo~~.
 
 ## Conclusão
-~preciso de ferias~
+**preciso de ferias**
 
