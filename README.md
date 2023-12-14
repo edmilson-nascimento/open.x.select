@@ -47,7 +47,7 @@ Para performance, o `select` foi bem melhor.
 Esse ponto, o `open cursor` funcionou melhor sem gerar dumps. Agora com a recente atualização, ~por algum motivo que ainda não sei porque~, mas funciona melhor com `range` .
 
 ## Importante
-Houve um erro ou uma falha de dados, ou seja, eu tenho alguns pontos de atencao, por exemplo, não devo usar `for all entries` para essas opções. O *Eduardo Araujo* disse que não é interessante essa utulização ~~e quando ele tiver tempo e pesquisar, vai atualizar esse esse artigo~~.
+Houve um erro ou uma falha de dados, ou seja, eu tenho alguns pontos de atencao, por exemplo, não devo usar `for all entries` para essas opções. O **Eduardo Araujo** disse que não é interessante essa utulização ~~e quando ele tiver tempo e pesquisar, vai atualizar esse esse artigo~~.
 
 ## Conclusão
 **preciso de ferias**
