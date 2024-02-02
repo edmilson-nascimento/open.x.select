@@ -1,4 +1,4 @@
-# Open cursor VS Select
+# Open Cursor VS Select
  ~com toda certeza minha criativade se foi de vez, porque eu gastei um bom tempo colocar um titulo e no final... é isso~
 
 Tratar dados para persistir apos salvar Ordem de Vendas.
